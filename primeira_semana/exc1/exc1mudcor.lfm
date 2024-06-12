@@ -1,0 +1,29 @@
+object Form1: TForm1
+  Left = 1265
+  Height = 240
+  Top = 223
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  DesignTimePPI = 144
+  LCLVersion = '3.4.0.0'
+  object Button1: TButton
+    Left = 104
+    Height = 38
+    Top = 64
+    Width = 113
+    Caption = 'Mudar Cor'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object ColorBox1: TColorBox
+    Left = 82
+    Height = 24
+    Top = 25
+    Width = 150
+    ItemHeight = 16
+    OnChange = ColorBox1Change
+    TabOrder = 1
+  end
+end

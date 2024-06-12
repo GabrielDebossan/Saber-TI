@@ -1,0 +1,64 @@
+object Form1: TForm1
+  Left = 1078
+  Height = 286
+  Top = 182
+  Width = 484
+  Caption = 'Form1'
+  ClientHeight = 286
+  ClientWidth = 484
+  DesignTimePPI = 144
+  LCLVersion = '3.4.0.0'
+  object edtTexto: TEdit
+    Left = 8
+    Height = 33
+    Top = 8
+    Width = 208
+    TabOrder = 0
+  end
+  object RadioButton1: TRadioButton
+    Left = 240
+    Height = 29
+    Top = 12
+    Width = 151
+    Caption = 'Tudo Maiúsculo'
+    TabOrder = 1
+    OnChange = RadioButton1Change
+    OnClick = RadioButton1Change
+  end
+  object RadioButton2: TRadioButton
+    Left = 240
+    Height = 29
+    Top = 56
+    Width = 152
+    Caption = 'Tudo Minúsculo'
+    TabOrder = 2
+    OnClick = RadioButton1Change
+  end
+  object RadioButton3: TRadioButton
+    Left = 240
+    Height = 29
+    Top = 96
+    Width = 126
+    Caption = '1º Maiúscula'
+    TabOrder = 3
+    OnClick = RadioButton1Change
+  end
+  object RadioButton4: TRadioButton
+    Left = 240
+    Height = 29
+    Top = 136
+    Width = 122
+    Caption = '1ºMinúscula'
+    TabOrder = 4
+    OnClick = RadioButton1Change
+  end
+  object Button1: TButton
+    Left = 73
+    Height = 38
+    Top = 139
+    Width = 113
+    Caption = 'Button1'
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+end
